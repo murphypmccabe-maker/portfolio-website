@@ -1,0 +1,17 @@
+body {
+  padding: 05% 10%;
+  font-size: 1.2em;
+}
+
+body p {
+  margin: 0 0 0.75em 0;
+}
+
+body b {
+  display: block;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: darkred; 
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
