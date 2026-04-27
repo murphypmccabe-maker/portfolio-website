@@ -1,15 +1,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
+
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
     <title>A-Frame Starter</title>
   </head>
   <body>
     <a-scene>
-      <a-box position="0 2 -5" animation="property: rotation; to: 0 0 0 ; loop: true; elasticity:1000; dur: 10000" 
-      rotation="360 360 0" radius="1.25" color="#AA1A1A"></a-box>
-      <a-sky color="#4CC3D9"></a-sky>
+      <a-entity position="0 0 -5" rotation="0 0 0">
+        <a-sphere radius="0.5" color="red"></a-sphere>
+        <a-cylinder radius="0.3" height="1" color="blue"></a-cylinder>
+      </a-entity>
     </a-scene>
   </body>
 </html>
